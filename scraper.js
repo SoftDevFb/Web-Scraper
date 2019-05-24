@@ -20,6 +20,7 @@ const puppeteer = require("puppeteer");
     console.log("Product Names: ", products.join(','));
     console.log("Product Count: ", products.length);
 
+  
 //----------------------------------------------------------------------------------------
   // The top 3 occuring alphanumeric characters contained in the HTML, and how
   // many times each occurs.
@@ -59,6 +60,8 @@ const puppeteer = require("puppeteer");
   console.log(".png Images Found: ", numPngImgs);
   console.log("Number of .png Images Found: ", numPngImgs.length);
 
+  
+//----------------------------------------------------------------------------------------
   // BannoJHA’s Twitter handle: this should work if the Twitter name were to change.
   const twitterHandle = await page.evaluate(() =>
     Array.from(document.querySelectorAll("footer a")).map(
