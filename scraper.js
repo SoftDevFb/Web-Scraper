@@ -83,7 +83,7 @@ const puppeteer = require("puppeteer");
         return array.filter((v) => (v === value)).length;
     }
 
-    console.log("Number of times 'Financial Instituion' occurs: ", getOccurrence(finInstituteOccurences, 'financial')); 
+    console.log("Number of times 'Financial Institution' occurs: ", getOccurrence(finInstituteOccurences, 'financial')); 
    
 
   //console.log(finInstituteOccurences);
